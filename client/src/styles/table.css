@@ -1,0 +1,18 @@
+TD, TH {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+   }
+   TH {
+       text-align: center;
+       color: white;
+    background: #343a40; /* Цвет фона */
+   }
+   TR:hover {
+    background-color: lavender;
+   }
+.deleteTD:hover{
+    cursor: pointer;
+}
+.editingInput {
+    width: 100%;
+}
